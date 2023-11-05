@@ -11,7 +11,9 @@
         <nav>
             <div class="logo" onclick="window.location.href='index.html';">💎 choir.gg</div>
             <div class="nav-links">
-                <div onclick="window.location.href='sheetmusic.html';">Sheet Music</div>
+                <div id="homeLink" class="page-title" onclick="window.location.href='index.html';">Home</div>
+                <div id="musicLink" class="page-title" onclick="window.location.href='music.html';">Music</div>
+                <div id="voicePartTestLink" class="page-title" onclick="window.location.href='voice_part_test.html';">Voice Part Test</div>
             </div>
         </nav>
     </header>
@@ -35,6 +37,10 @@
         <p><span class="logo">💎</span> created by rrishi anand</p>
     </footer>
 
+    <script>
+        document.getElementById('musicLink').classList.add('active');
+    </script>
+    
     <script src="script.js"></script>
 </body>
 </html>

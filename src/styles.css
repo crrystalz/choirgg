@@ -164,3 +164,63 @@ header nav {
 .pagination-controls button {
     margin: 0 10px; /* Adds margin to the left and right of the buttons */
 }
+
+/* This styles your nav bar container */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+/* This styles the logo */
+.logo {
+    cursor: pointer;
+}
+
+/* This styles the container of the navigation links */
+.nav-links {
+    display: flex;
+    gap: 20px; /* This adds space between your links */
+}
+
+/* This styles each navigation link */
+.nav-links div {
+    cursor: pointer;
+    padding: 10px; /* This adds some padding around the links */
+    text-decoration: none;
+    color: black; /* Change as necessary for your design */
+    font-size: 1em; /* Change as necessary for your design */
+}
+
+/* This styles the active state of a navigation link */
+.nav-links .active {
+    font-weight: bold;
+    color: #4CAF50; /* This is an example color for the active link */
+}
+
+.nav-links div, .logo {
+    cursor: pointer;
+    color: white; /* Default color */
+    text-transform: uppercase;
+    margin: 0 15px;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.nav-links div:hover, .logo:hover {
+    animation: textGradient 3s ease infinite;
+    background: linear-gradient(90deg, #56CCF2, #2F80ED, #9B51E0, #BB6BD9, #56CCF2);
+    background-size: 400% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent; /* Required to see the gradient */
+    -webkit-text-fill-color: transparent; /* For Safari */
+}
+
+.nav-links .active {
+    font-weight: bold;
+    color: purple; /* Active link color */
+    animation: none;
+    background: none;
+}
