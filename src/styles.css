@@ -1,0 +1,166 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: white;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+    background: transparent;
+}
+
+.nav-links div, .logo {
+    cursor: pointer;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0 15px;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.nav-links div:hover, .logo:hover {
+    color: #aaa;
+}
+
+.hero {
+    display: flex; /* Establishes this container as a flex container */
+    flex-direction: column; /* Stacks children elements (like h1 and p) vertically */
+    justify-content: center; /* Centers children along the main axis (vertical, since direction is column) */
+    align-items: center; /* Centers children along the cross axis (horizontal) */
+    text-align: center; /* Ensures the text within the children aligns center */
+    height: 100vh; /* Sets the height of the hero section to be 100% of the viewport height */
+    margin: 0; /* Resets any default margin */
+    padding: 0; /* Resets any default padding */
+}
+
+
+h1 {
+    font-size: 4rem;
+    margin: 10px 0;
+}
+
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.8rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+}
+
+.search-container {
+    text-align: center;
+    padding: 20px;
+}
+
+#results {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* This will center the cards in the flex container */
+    padding: 20px;
+}
+
+.card {
+    margin: 10px;
+    padding: 15px;
+    background: #333;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    width: calc(33.333% - 20px);
+    text-align: left;
+    transition: transform 0.2s, box-shadow 0.2s; /* Added for smooth transition */
+}
+
+.card-title {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+
+.card-content {
+    font-size: 1em;
+    margin-bottom: 0.5em;
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Raises the card slightly */
+    box-shadow: 0 0 15px #a020f0; /* Glowing purple drop shadow */
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: calc(50% - 20px); /* This sets the width for 2 cards per row on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        width: calc(100% - 20px); /* This sets the width for 1 card per row on mobile screens */
+    }
+}
+
+/* Adjust these color values as needed to match the screenshot */
+:root {
+    --header-bg-color: #1a1a2e; /* This represents the header background color */
+    --main-bg-color: #121212; /* This represents the main background color */
+}
+
+@keyframes textGradient {
+    0%, 100% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+}
+  
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--main-bg-color);
+    color: white;
+}
+
+header nav {
+    background-color: var(--header-bg-color); /* Updated header background color */
+}
+
+.hero p .dynamic-text {
+    background: linear-gradient(90deg, #56CCF2, #2F80ED, #9B51E0, #BB6BD9, #56CCF2);
+    background-size: 400% 100%; /* Increase the size to allow the gradient to move */
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline; /* This makes sure the background-clip applies to the text */
+    -webkit-text-fill-color: transparent; /* For Safari */
+    animation: textGradient 3s ease infinite; /* Adjust time as needed */
+}
+  
+.logo {
+    display: inline-block; /* To keep the emoji and text aligned properly */
+    margin-right: 5px; /* Adjust the spacing as needed */
+    /* Other styling for logo if needed */
+}
+
+.pagination-controls {
+    text-align: center;
+    margin: 20px 0;
+}
+  
+.pagination-controls button {
+    margin: 0 10px; /* Adds margin to the left and right of the buttons */
+}

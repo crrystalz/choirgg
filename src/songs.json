@@ -1,0 +1,198 @@
+[
+    {
+        "title": "Mass",
+        "genre": "Classical",
+        "voices": "SATB",
+        "composer": "Johann Sebastian Bach",
+        "favorite": true
+    },
+    {
+        "title": "Gaudete",
+        "genre": "Medieval",
+        "voices": "SATB",
+        "composer": "Unknown",
+        "favorite": true
+    },
+    {
+        "title": "When Our Voices Rise",
+        "genre": "Contemporary Choral",
+        "voices": "SATB",
+        "composer": "Unknown",
+        "favorite": true
+    },
+    {
+        "title": "Stomp on the Fire",
+        "genre": "Unknown",
+        "voices": "Unknown",
+        "composer": "Unknown",
+        "favorite": true
+    },
+    {
+        "title": "Way Over in Beulah Lan'",
+        "genre": "Spiritual",
+        "voices": "SATB",
+        "composer": "Unknown",
+        "favorite": true
+    },
+    {
+        "title": "Set Me as a Seal",
+        "genre": "Religious/Choral",
+        "voices": "SATB",
+        "composer": "René Clausen",
+        "favorite": true
+    },
+    {
+        "title": "Exultate Deo",
+        "genre": "Sacred/Choral",
+        "voices": "SATB",
+        "composer": "Alessandro Scarlatti",
+        "favorite": true
+    },
+    {
+        "title": "For the Longest Time",
+        "genre": "Pop/A cappella",
+        "voices": "SATB",
+        "composer": "Billy Joel",
+        "favorite": true
+    },
+    {
+        "title": "Ave Verum Corpus",
+        "genre": "Sacred Choral",
+        "voices": "SATB",
+        "composer": "Wolfgang Amadeus Mozart",
+        "favorite": false
+    },
+    {
+        "title": "Carmina Burana",
+        "genre": "Secular Choral",
+        "voices": "SATB",
+        "composer": "Carl Orff",
+        "favorite": false
+    },
+    {
+        "title": "Requiem",
+        "genre": "Sacred Choral",
+        "voices": "SATB",
+        "composer": "Gabriel Fauré",
+        "favorite": false
+    },
+    {
+        "title": "Messiah",
+        "genre": "Sacred Choral",
+        "voices": "SATB",
+        "composer": "George Frideric Handel",
+        "favorite": false
+    },
+    {
+        "title": "Chichester Psalms",
+        "genre": "Sacred Choral",
+        "voices": "SATB",
+        "composer": "Leonard Bernstein",
+        "favorite": false
+    },
+    {
+        "title": "Miserere",
+        "genre": "Sacred Choral",
+        "voices": "SATB",
+        "composer": "Gregorio Allegri",
+        "favorite": false
+    },
+    {
+        "title": "Lacrimosa",
+        "genre": "Sacred Choral",
+        "voices": "SATB",
+        "composer": "Wolfgang Amadeus Mozart",
+        "favorite": false
+    },
+    {
+        "title": "Dona Nobis Pacem",
+        "genre": "Sacred Choral",
+        "voices": "SATB",
+        "composer": "Ralph Vaughan Williams",
+        "favorite": false
+    },
+    {
+        "title": "Stabat Mater",
+        "genre": "Sacred Choral",
+        "voices": "SATB",
+        "composer": "Giovanni Battista Pergolesi",
+        "favorite": false
+    },
+    {
+        "title": "The Creation",
+        "genre": "Sacred Choral",
+        "voices": "SATB",
+        "composer": "Joseph Haydn",
+        "favorite": false
+    },
+    {
+        "title": "Vesperae solennes de confessore",
+        "genre": "Sacred Choral",
+        "voices": "SATB",
+        "composer": "Wolfgang Amadeus Mozart",
+        "favorite": false
+    },
+    {
+        "title": "Gloria",
+        "genre": "Sacred Choral",
+        "voices": "SATB",
+        "composer": "Antonio Vivaldi",
+        "favorite": false
+    },
+    {
+        "title": "War Requiem",
+        "genre": "Sacred Choral",
+        "voices": "SATB",
+        "composer": "Benjamin Britten",
+        "favorite": false
+    },
+    {
+        "title": "Elijah",
+        "genre": "Sacred Choral",
+        "voices": "SATB",
+        "composer": "Felix Mendelssohn",
+        "favorite": false
+    },
+    {
+        "title": "Magnificat",
+        "genre": "Sacred Choral",
+        "voices": "SATB",
+        "composer": "Johann Sebastian Bach",
+        "favorite": false
+    },
+    {
+        "title": "Cantique de Jean Racine",
+        "genre": "Sacred Choral",
+        "voices": "SATB",
+        "composer": "Gabriel Fauré",
+        "favorite": false
+    },
+    {
+        "title": "Spem in Alium",
+        "genre": "Sacred Choral",
+        "voices": "SATB (40-part motet)",
+        "composer": "Thomas Tallis",
+        "favorite": false
+    },
+    {
+        "title": "Five Mystical Songs",
+        "genre": "Sacred Choral",
+        "voices": "SATB",
+        "composer": "Ralph Vaughan Williams",
+        "favorite": false
+    },
+    {
+        "title": "Mass in B Minor",
+        "genre": "Sacred Choral",
+        "voices": "SATB",
+        "composer": "Johann Sebastian Bach",
+        "favorite": false
+    },
+    {
+        "title": "Herz und Mund und Tat und Leben, BWV 147",
+        "genre": "Sacred Choral",
+        "voices": "SATB",
+        "composer": "Johann Sebastian Bach",
+        "favorite": false
+    }
+]
